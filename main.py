@@ -1,6 +1,6 @@
 import time
 from contact_node import ContactNode
-from doubly_linked_list import DoublyLinkedList
+from double_linked_list import DoublyLinkedList
 from hash_index import HashIndex
 from persistence import Persistence
 
