@@ -8,5 +8,4 @@ class ContactNode:
         self.next = None
 
     def to_dict(self) -> Dict:
-        """转换为字典，用于持久化"""
         return {"name": self.name, "phone": self.phone}
